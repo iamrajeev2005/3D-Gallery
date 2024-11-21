@@ -1,7 +1,7 @@
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js";
 import { Reflector } from "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/objects/Reflector.js";
-import TWEEN from "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.esm.js";
 const { Tween, Easing, update: updateTween } = TWEEN;
+import TWEEN from "@tweenjs/tween.js";
 
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 const titles = ["one","two","three","four","five","six"]
