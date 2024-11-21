@@ -1,5 +1,5 @@
-import * as THREE from "three";
-import { Reflector } from "three/examples/jsm/Addons.js";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js";
+import { Reflector } from "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/objects/Reflector.js";
 import { Tween, Easing, update as updateTween } from "tween";
 
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
